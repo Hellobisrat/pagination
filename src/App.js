@@ -1,6 +1,6 @@
 import React,{useState,useEffect} from "react";
 import {useFetch} from './useFetch';
-import Follower from './Follower'
+import Follower from './Flowers'
 
 function App() {
   const {loading,data}=useFetch()
